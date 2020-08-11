@@ -1,0 +1,9 @@
+Package: com.captmegacharlie.hazmat
+Name: Hazmat
+Version: 1.0
+Depends: firmware (>=13.0), mobilesubstrate
+Author: Capt Inc, MegaDev, Charlie While
+Maintainer: Capt Inc, MegaDev, Charlie While
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: Apple Music artwork, but nuclear-quality
