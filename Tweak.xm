@@ -73,7 +73,7 @@ void reloadPrefs() {
     NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:plistPath] ?: [NSDictionary dictionary];
     tweakEnabled = [[dict objectForKey:@"enabled"] ?: @YES boolValue];
     selectedBundleName = [dict objectForKey:@"currentMask"] ?: @"Slime";
-    chosenOffset = [[dict objectForKey:@"offset"] ?: @(1.05) doubleValue];
+    chosenOffset = [[dict objectForKey:@"offset"] ?: @(1) doubleValue];
     
     if (tweakEnabled) {
         for (UIView<HZPMask> *storage in HZPMaskStorage) {
